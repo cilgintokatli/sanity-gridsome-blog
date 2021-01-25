@@ -1,14 +1,6 @@
 <template>
   <div id="app">
-    <header class="header">
-      <div class="header__left">
-        <header-logo v-if="showLogo" />
-      </div>
-
-      <div class="header__right">
-        <toggle-theme />
-      </div>
-    </header>
+    <Header/>
 
     <main class="main">
       <slot />
@@ -26,19 +18,11 @@
 </template>
 
 <script>
-import HeaderLogo from '~/components/HeaderLogo'
-import ToggleTheme from '~/components/ToggleTheme'
+import Header from '~/components/Header'
 
 export default {
-  props: {
-    showLogo: {
-      type: Boolean,
-      default: true
-    }
-  },
   components: {
-    HeaderLogo,
-    ToggleTheme
+    Header
   }
 }
 </script>
