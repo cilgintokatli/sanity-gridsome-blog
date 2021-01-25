@@ -1,7 +1,7 @@
 <template>
   <g-link class="logo" to="/">
     <g-image
-      alt="boapost"
+      alt="boa post prodüksiyon"
       :src="$urlForImage($static.settings.logo.asset.url, $static.metadata.sanityOptions).height(180).url()"
       class="align-middle"
     />
