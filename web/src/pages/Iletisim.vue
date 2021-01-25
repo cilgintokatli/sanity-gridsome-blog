@@ -1,7 +1,6 @@
 <template>
   <Layout>
-    <!-- Author intro -->
-    <div class="mx-auto">
+    <div>
         iletişim
     </div>
   </Layout>
