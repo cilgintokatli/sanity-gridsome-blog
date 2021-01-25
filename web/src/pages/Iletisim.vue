@@ -65,7 +65,7 @@ export default {
                     ...this.formData,
                 }),
             })
-            .then(() => console.log('Form successfully submitted'))
+            .then(() => console.log('Form successfully submitted.'))
             .catch(error => alert(error))
         }
     },
