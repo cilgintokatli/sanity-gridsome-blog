@@ -1,7 +1,7 @@
 export default {
   name: 'siteSettings',
   type: 'document',
-  title: 'Site Settings',
+  title: 'Site Ayarları',
   __experimental_actions: ['update', /* 'create', 'delete', */ 'publish'],
   fields: [
     {
@@ -14,6 +14,11 @@ export default {
       type: 'text',
       title: 'Description',
       description: 'Describe your blog for search engines and social media.'
+    },
+    {
+      name: 'logo',
+      title: 'Logo',
+      type: 'image'
     },
     {
       name: 'keywords',
