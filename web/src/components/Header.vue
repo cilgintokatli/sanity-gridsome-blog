@@ -4,10 +4,9 @@
     <nav class="flex justify-between items-center max-h-28">
             <HeaderLogo />
         <ul class="flex flex-row">
-            <li class="pr-5"><a> Services </a></li>
-            <li class="pr-5"><a>Porfolio</a></li>
-            <li class="pr-5"><a>About</a></li>
-            <li><a>Contact</a></li>
+            <g-link to="/" class="pr-5">Ana Sayfa</g-link>
+            <g-link to="/isler/" class="pr-5">İşler</g-link>
+            <g-link to="'/iletisim/">İletişim</g-link>
         </ul>
     </nav>
 </div>

@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <!-- Author intro -->
-    <div>
-        hakkımızda!!!!
+    <div class="mx-auto">
+        iletişim
     </div>
   </Layout>
 </template>
@@ -11,7 +11,7 @@
 
 export default {
   metaInfo: {
-    title: 'Hakkımızda!'
+    title: 'İletişim'
   }
 }
 </script>
