@@ -1,13 +1,30 @@
 <template>
   <g-link class="logo" to="/">
-    <span class="logo__text">&larr; {{ $static.metadata.siteName }}</span>
-  </g-link>
+    <g-image
+      alt="boapost"
+      :src="$urlForImage($static.settings.logo.asset.url, $static.metadata.sanityOptions).height(180).url()"
+      class="align-middle"
+    />
+  </g-link> 
 </template>
 
 <static-query>
 query {
   metadata {
     siteName
+    sanityOptions{
+      projectId
+      dataset
+    }
+  }
+  settings: sanitySiteSettings(id: "siteSettings") {
+    title
+    description
+    logo {
+      asset {
+        url
+      }
+    }
   }
 }
 </static-query>
