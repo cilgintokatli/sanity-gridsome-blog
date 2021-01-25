@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="false">
+  <Layout>
     <!-- Author intro -->
 
     <!-- List posts -->
