@@ -5,6 +5,7 @@
             <HeaderLogo />
         <ul class="flex flex-row">
             <g-link to="/" class="pr-5">Ana Sayfa</g-link>
+            <g-link to="/hakkimizda/" class="pr-5">Hakkımızda</g-link>
             <g-link to="/isler/" class="pr-5">İşler</g-link>
             <g-link to="/iletisim/">İletişim</g-link>
         </ul>
