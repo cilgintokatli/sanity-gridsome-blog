@@ -23,6 +23,9 @@ module.exports = {
 
   plugins: [
     {
+      use: 'gridsome-plugin-tailwindcss'
+    },
+    {
       use: 'gridsome-source-sanity',
       options: {
         ...clientConfig.sanity,
