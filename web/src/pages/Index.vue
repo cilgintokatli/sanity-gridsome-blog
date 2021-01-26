@@ -1,7 +1,7 @@
 <template>
   <Layout>
    
-
+    <Hizmet/>
     <!-- List posts -->
     <div class="posts">
       <post-card
@@ -65,10 +65,12 @@
 
 <script>
 import PostCard from '~/components/PostCard'
+import Hizmet from '~/components/Hizmet'
 
 export default {
   components: {
-    PostCard
+    PostCard,
+    Hizmet
   },
   metaInfo: {
     title: 'Anasayfa'
