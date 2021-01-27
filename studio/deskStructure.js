@@ -10,7 +10,7 @@ export default () =>
     .title('Content')
     .items([
       S.listItem()
-        .title('Settings')
+        .title('Ayarlar')
         .icon(MdSettings)
         .child(
           S.editor()
@@ -19,9 +19,9 @@ export default () =>
             .documentId('siteSettings')
         ),
       S.listItem()
-        .title('Blog posts')
+        .title('İşler')
         .schemaType('post')
-        .child(S.documentTypeList('post').title('Blog posts')),
+        .child(S.documentTypeList('post').title('İşlerr')),
       S.listItem()
         .title('Authors')
         .icon(MdPerson)
