@@ -3,12 +3,12 @@ import {format} from 'date-fns'
 export default {
   name: 'post',
   type: 'document',
-  title: 'Blog Post',
+  title: 'İşler',
   fields: [
     {
       name: 'title',
       type: 'string',
-      title: 'Title',
+      title: 'Başlık',
       description: 'Titles should be catchy, descriptive, and not too long'
     },
     {
