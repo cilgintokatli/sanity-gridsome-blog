@@ -9,6 +9,7 @@
 
 <script>
 import PortableText from 'sanity-blocks-vue-component'
+import Vimeo from './Vimeo'
 
 export default {
   props: {
@@ -31,7 +32,8 @@ export default {
               />
               <figcaption>{node.caption}</figcaption>
             </figure>
-          )
+          ),
+          vimeo: Vimeo
         }
       }
     }
