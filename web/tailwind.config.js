@@ -6,6 +6,7 @@ module.exports = {
       'layouts/**/*.vue',
       'pages/**/*.vue',
       'templates/**/*.vue',
+      'assets/style/*.scss'
     ]
   },
   darkMode: false, // or 'media' or 'class'
