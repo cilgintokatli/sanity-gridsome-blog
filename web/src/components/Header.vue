@@ -1,6 +1,6 @@
 <template>
   
-    <nav class="flex justify-between items-center max-h-28 bg-arkaplan p-10">
+    <nav class="flex justify-between items-center max-h-28 bg-maincolor p-10">
             <HeaderLogo />
         <ul class="flex flex-row">
             <g-link to="/" class="pr-5 text-white">Ana Sayfa</g-link>

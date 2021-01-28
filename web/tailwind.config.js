@@ -12,8 +12,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'arkaplan': '#7a2e94',
-        'indigo': '#5c6ac4',
+        'maincolor': '#7a2e94',
       }
     },
   },
