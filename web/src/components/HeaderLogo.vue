@@ -3,7 +3,7 @@
     <g-image
       alt="boa post prodüksiyon"
       :src="$urlForImage($static.settings.logo.asset.url, $static.metadata.sanityOptions).height(180).url()"
-      class="align-middle"
+      class="w-40 lg:w-full"
     />
   </g-link> 
 </template>
