@@ -1,16 +1,14 @@
 <template>
   
-<div class="container mx-auto p-5">
-    <nav class="flex justify-between items-center max-h-28">
+    <nav class="flex justify-between items-center max-h-28 bg-arkaplan p-10">
             <HeaderLogo />
         <ul class="flex flex-row">
-            <g-link to="/" class="pr-5">Ana Sayfa</g-link>
-            <g-link to="/hakkimizda/" class="pr-5">Hakkımızda</g-link>
-            <g-link to="/isler/" class="pr-5">İşler</g-link>
-            <g-link to="/iletisim/">İletişim</g-link>
+            <g-link to="/" class="pr-5 text-white">Ana Sayfa</g-link>
+            <g-link to="/hakkimizda/" class="pr-5 text-white">Hakkımızda</g-link>
+            <g-link to="/isler/" class="pr-5 text-white">İşler</g-link>
+            <g-link to="/iletisim/" class="text-white">İletişim</g-link>
         </ul>
     </nav>
-</div>
 </template>
 
 <script>
